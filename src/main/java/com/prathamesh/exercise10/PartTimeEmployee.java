@@ -3,8 +3,8 @@ package com.prathamesh.exercise10;
 public class PartTimeEmployee extends Employee{
     int daysWorked;
 
-    public PartTimeEmployee(String name, int id, int daysWorked) {
-        super(name, id);
+    public PartTimeEmployee(int daysWorked) {
+        super();
         this.daysWorked = daysWorked;
     }
 
